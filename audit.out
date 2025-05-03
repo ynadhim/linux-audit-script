@@ -1,0 +1,42 @@
+===== SYSTEM AUDIT START =====
+Date: Sat May  3 19:22:24 EDT 2025
+Hostname: cislinux.hfcc.edu
+Uptime:
+ 19:22:24 up 38 days,  7:50,  3 users,  load average: 0.42, 0.11, 0.04
+
+===== OPEN NETWORK PORTS =====
+Netid State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess
+udp   UNCONN 0      0          127.0.0.1:323        0.0.0.0:*          
+udp   UNCONN 0      0            0.0.0.0:5353       0.0.0.0:*          
+udp   UNCONN 0      0            0.0.0.0:42838      0.0.0.0:*          
+udp   UNCONN 0      0            0.0.0.0:55625      0.0.0.0:*          
+udp   UNCONN 0      0              [::1]:323           [::]:*          
+udp   UNCONN 0      0               [::]:5353          [::]:*          
+udp   UNCONN 0      0               [::]:34874         [::]:*          
+tcp   LISTEN 0      70           0.0.0.0:3306       0.0.0.0:*          
+tcp   LISTEN 0      128          0.0.0.0:22         0.0.0.0:*          
+tcp   LISTEN 0      128        127.0.0.1:631        0.0.0.0:*          
+tcp   LISTEN 0      100          0.0.0.0:25         0.0.0.0:*          
+tcp   LISTEN 0      70              [::]:3306          [::]:*          
+tcp   LISTEN 0      128                *:80               *:*          
+tcp   LISTEN 0      128             [::]:22            [::]:*          
+tcp   LISTEN 0      128            [::1]:631           [::]:*          
+tcp   LISTEN 0      100             [::]:25            [::]:*          
+tcp   LISTEN 0      128                *:443              *:*          
+
+===== USERS WITH UID 0 =====
+root (UID: 0)
+
+===== WORLD WRITABLE FILES =====
+-rw-rw-rw- 2 476954 users 259 Feb 23  2021 /home/alezotte/text
+-rw-rw-rw- 2 476954 users 148 Feb 23  2021 /home/alezotte/cars
+-rw-rw-rw- 2 476954 users 135 Feb 23  2021 /home/alezotte/cars2
+-rw-rw-rw- 2 476954 users 46 Feb 23  2021 /home/alezotte/names
+-rwxrwxrwx 3 687430 users 460 Feb  4  2022 /home/jdergham/section4part1/section4.bashrc
+-rw-rw-rw- 1 root root 0 May  3 19:22 /proc/sys/kernel/ns_last_pid
+-rw-rw-rw- 1 root root 0 May  3 19:22 /proc/1/task/1/attr/current
+-rw-rw-rw- 1 root root 0 May  3 19:22 /proc/1/task/1/attr/exec
+-rw-rw-rw- 1 root root 0 May  3 19:22 /proc/1/task/1/attr/fscreate
+-rw-rw-rw- 1 root root 0 May  3 19:22 /proc/1/task/1/attr/keycreate
+
+===== FAILED SSH LOGIN ATTEMPTS =====
